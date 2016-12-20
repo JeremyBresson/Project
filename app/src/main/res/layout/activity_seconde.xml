@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_seconde"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.alex.project.SecondeActivity">
+
+
+
+    <ImageView
+        android:id="@+id/image_kro"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/logokro"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/image_artois"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/stellaartois"
+        android:layout_below="@+id/image_kro"
+        android:layout_alignLeft="@+id/image_kro"
+        android:layout_alignStart="@+id/image_kro" />
+
+    <ImageView
+        android:id="@+id/image_guiness"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/guiness"
+        android:layout_below="@+id/image_artois"
+        android:layout_alignLeft="@+id/image_artois"
+        android:layout_alignStart="@+id/image_artois"
+        android:layout_marginTop="13dp" />
+</RelativeLayout>
